@@ -2,10 +2,18 @@
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Jesus may anything work in there?!");
-        // Anything added lol, IT'S WORKING!
-        // But I'm still stupid :(
-        
-        //Ahhhhhhhhhhhhhh, sounds of pain
+        int[] arr = new[] { 1, 1, 2, 4 };
+        Console.WriteLine(AvgMethod(arr));
+    }
+
+    public static double AvgMethod(int[] array)
+    {
+        int sum = 0;
+        foreach(int val in array)
+        {
+            sum += val;
+        }
+
+        return sum / array.Length;
     }
 }
