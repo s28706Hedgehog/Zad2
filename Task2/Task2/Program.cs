@@ -14,6 +14,7 @@
         {
             sum += val;
         }
+        // fnaoiooifwaioo
 
         return sum / array.Length;
     }
