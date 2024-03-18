@@ -9,6 +9,7 @@
 
     public static double AvgMethod(int[] array)
     {
+
         int rzodkiewkaMarchewkaPolTunczyka = 0;
         foreach(int val in array)
         {
@@ -17,6 +18,7 @@
         // fnaoiooifwaioo
 
         return rzodkiewkaMarchewkaPolTunczyka / array.Length;
+
     }
     
     public static double MaxMethod(int[] array)
