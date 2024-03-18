@@ -13,7 +13,7 @@
         {
             sumSum += val;
         }
-
+    
         return sumSum / array.Length;
     }
 }
