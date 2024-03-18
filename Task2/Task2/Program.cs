@@ -9,14 +9,14 @@
 
     public static double AvgMethod(int[] array)
     {
-        int wSumieSumarycznaSumaSumujacaSumeSum = 0;
+        int rzodkiewkaMarchewkaPolTunczyka = 0;
         foreach(int val in array)
         {
-            wSumieSumarycznaSumaSumujacaSumeSum += val;
+            rzodkiewkaMarchewkaPolTunczyka += val;
         }
         // fnaoiooifwaioo
 
-        return wSumieSumarycznaSumaSumujacaSumeSum / array.Length;
+        return rzodkiewkaMarchewkaPolTunczyka / array.Length;
     }
     
     public static double MaxMethod(int[] array)
