@@ -8,12 +8,12 @@
 
     public static double AvgMethod(int[] array)
     {
-        int sum = 0;
+        int sumSum = 0;
         foreach(int val in array)
         {
-            sum += val;
+            sumSum += val;
         }
 
-        return sum / array.Length;
+        return sumSum / array.Length;
     }
 }
